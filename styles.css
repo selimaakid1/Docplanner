@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/*{
+    box-sizing: inherit;
+}*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    width: 100%;
+    padding: 15px 20px;
+
+}
+nav a {
+    color: #ababab;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 9px;
+    text-decoration: none;
+}
+nav .dropdown {
+    position: relative;
+    display:inline-block;
+    cursor: pointer;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    color: #ababab;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 9px;
+    text-decoration: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: white;
+    font-weight: 300;
+    
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.title h1{
+    color: #00b39b;
+    font-size: 34px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    text-align: center;
+}
+.title img{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+.title{
+    padding-top: 64px;
+
+}
+body {
+    margin: 0px;
+}
+.contain-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+#pt{
+    background-color: #00CCB1;
+    border-radius: 10px;
+    width: 40%;
+    padding: 22px 40px;   
+    position: relative;
+     overflow: hidden;
+     height: 400px;
+}
+.paragraphes{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.paragraphes p{
+    width: 47%;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #747474;
+
+}
+#pt h1, #dc h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: .3px;
+
+}
+#pt h5, #dc h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#dc{
+    width: 40%;
+    background-color: #3d83df;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 22px 40px;
+    position: relative;
+    height: 400px;
+
+   
+}
+
+#pt img, #dc img{
+    position: absolute;
+    left: 50%;
+   
+}
+.brands {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 40px auto;
+ 
+}
+
+.brands-title h1 {
+color: #00b39b;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size:26px;
+font-weight: 300;
+letter-spacing: .3px;
+margin: 6.5px;
+width: 300px;
+}
+.brands-logo {
+    font-size: 16px;
+    height: 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    fill: #BDBDBD;
+
+}
+svg:hover {
+    fill: #00b39b;
+}
+
+.contain{
+    background-color: #e5faf8;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+.contain-title img{
+    position: absolute;
+    top: 50%;
+}
+.contain-title h1{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: #00b39b;
+}
+.contain-title p{
+    color: #747474;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+}
+.contain-box{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contain-box h3{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #00b39b;
+
+}
+.contain-box p{
+    color: #747474;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+
+}
+.contain-1{
+display: flex;
+justify-content: space-between;
+}
+.country{
+    margin: 80px 88px;
+}
+.country h1{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #00b39b;
+    text-align: center;
+   
+}
+.country p{
+    color: #747474;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 460px;
+    position: relative;
+    left: 33.33%;
+}
+.office-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+    
+}
+.office-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.office-btns button{
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #1570cd;
+    padding: 15px 20px;
+}
+.office-btns button:hover {
+        background:linear-gradient(to bottom, #1c92e6 5%, #0088cc 100%);
+        background-color:#1c92e6;
+    }
+
+
+.office-btns h2 {
+    color: #747474;
+    font-size: 18px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.office-box{
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 400px;
+}
+.office-box:hover{
+    box-shadow: -7px 13px 36px 6px rgba(171,168,171,1);}
+.box{
+    border: 1px solid white;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    height: 250px;
+    margin : 20px;
+    width : 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    padding: 20px 10px;
+}
+footer p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ababab;
+    text-align: center;
+}
+footer a{
+    color: #3d83df; 
+    text-decoration: none;
+
+}
+select {
+    border:0;
+    border-radius: 0;
+    height: 40px;
+    background: white;
+    padding: 0 3.5em 0 1.5em;
+
+}
+.translation {
+   transform: translateY(40px);
+}
+
+hr{
+    color: #f2f2f2;
+}
